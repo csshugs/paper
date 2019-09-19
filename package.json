@@ -3,5 +3,11 @@
     "version": "0.1.0",
     "description": "A demo project to use for screencasts etc.",
     "author": "Dennis Heibült",
-    "license": "MIT"
+    "license": "MIT",
+    "scripts": {
+        "server": "npx http-server ."
+    },
+    "devDependencies": {
+        "http-server": "^0.11.1"
+    }
 }
