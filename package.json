@@ -8,6 +8,8 @@
         "server": "npx http-server ."
     },
     "devDependencies": {
+        "@commitlint/cli": "^8.2.0",
+        "@commitlint/config-conventional": "^8.2.0",
         "http-server": "^0.11.1"
     }
 }
