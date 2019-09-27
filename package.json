@@ -7,9 +7,15 @@
     "scripts": {
         "server": "npx http-server ."
     },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
     "devDependencies": {
         "@commitlint/cli": "^8.2.0",
         "@commitlint/config-conventional": "^8.2.0",
-        "http-server": "^0.11.1"
+        "http-server": "^0.11.1",
+        "husky": "^3.0.5"
     }
 }
